@@ -28,12 +28,12 @@ export const campingPloerz: CampsiteConfig = {
     {
       title: "Stellplätze auf der Wiese",
       text: "Großzügige Plätze auf der Wiese mit 16-Ampere-Stromanschluss, gratis WLAN sowie Sonnen- und Schattenplätzen.",
-      image: { src: `${IMG}/stellplaetze-luftaufnahme.webp`, alt: "Luftaufnahme der Stellplätze auf der Wiese am Ossiacher See" },
+      image: { src: `${IMG}/stellplaetze-luftaufnahme.webp`, alt: "Luftaufnahme von Seecamping Plörz am Ossiacher See mit Stellplätzen auf dem Rasen" },
     },
     {
-      title: "Hunde herzlich willkommen",
-      text: "Eigener Zugang zum See für Hunde und eine eingezäunte Hundeauslaufzone — Vierbeiner sind hier nicht nur erlaubt, sondern herzlich willkommen.",
-      image: { src: `${IMG}/hundeauslaufzone.webp`, alt: "Hundeauslaufzone am Seecamping Plörz" },
+      title: "Privatgarten am See",
+      text: "Das Mobilheim am See verfügt über einen eigenen Garten mit Liegestühlen und privatem Seezugang — Erholung direkt vor der Haustür.",
+      image: { src: `${IMG}/mobilheim-see-garten.webp`, alt: "Liegestühle auf privatem Rasen vor modernen Mobilheimen mit überdachter Terrasse und Waldblick" },
     },
     {
       title: "Wohnkomfort im Mobilheim",
@@ -55,7 +55,7 @@ export const campingPloerz: CampsiteConfig = {
     heading: "Ehrlich, familiär, direkt am See",
     headingEmphasis: "direkt am See",
     intro:
-      "Harald und Monika empfangen ihre Gäste persönlich — ein kleiner, familiärer Platz, klare Preise und ein See, der für sich spricht.",
+      "Familie Lauritsch und ihr Team empfangen ihre Gäste persönlich — ein kleiner, familiärer Platz, klare Preise und ein See, der für sich spricht.",
   },
 
   awards: [],
@@ -77,14 +77,9 @@ export const campingPloerz: CampsiteConfig = {
         image: { src: `${IMG}/seezugang-stege.webp`, alt: "Seeufer mit Stegen und Liegewiese am Ossiacher See" },
       },
       {
-        title: "Liegewiese am Wasser",
-        text: "Schilfgesäumtes Ufer, Blick über den See und viel Platz zum Entspannen am Wasser.",
-        image: { src: `${IMG}/seezugang-liegewiese.webp`, alt: "Liegewiese mit Schilf und Seeblick am Ossiacher See" },
-      },
-      {
-        title: "Abendstimmung am See",
-        text: "Wenn die Sonne über den Bergen versinkt, wird der Ossiacher See zur ruhigsten Kulisse des Tages.",
-        image: { src: `${IMG}/ossiachersee-abendstimmung.webp`, alt: "Ossiacher See in der Abendstimmung mit Schilf und Bergen" },
+        title: "Ossiacher See – direkt vor der Tür",
+        text: "Der Campingplatz liegt unmittelbar am Südufer des Ossiacher Sees — mit Bergpanorama ringsum und dem See in Reichweite zum Schwimmen, Paddeln und Erholen.",
+        image: { src: `${IMG}/campingplatz-seelage.webp`, alt: "Luftaufnahme von Seecamping Plörz am Ossiacher See mit Bergen im Hintergrund" },
       },
     ],
   },
@@ -160,7 +155,7 @@ export const campingPloerz: CampsiteConfig = {
     telHref: "tel:+436763221494",
     mail: "info@camping-ploerz.at",
     facebook: "https://www.facebook.com/seecampingPloerz",
-    adresse: "Ossiachersee Süduferstraße 289 · 9523 Villach · Kärnten",
+    adresse: "Ossiachersee Süduferstraße 289 · 9523 Landskron am Ossiacher See · Kärnten",
   },
 
   languages: ["DE", "EN"],
