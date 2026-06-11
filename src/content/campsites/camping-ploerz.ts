@@ -26,9 +26,9 @@ export const campingPloerz: CampsiteConfig = {
 
   pillars: [
     {
-      title: "Stellplätze auf der Wiese",
-      text: "Großzügige Plätze auf der Wiese mit 16-Ampere-Stromanschluss, gratis WLAN sowie Sonnen- und Schattenplätzen.",
-      image: { src: `${IMG}/stellplaetze-luftaufnahme.webp`, alt: "Luftaufnahme von Seecamping Plörz am Ossiacher See mit Stellplätzen auf dem Rasen" },
+      title: "Hunde herzlich willkommen",
+      text: "Seecamping Plörz freut sich auf Gäste mit Hund — eine eigene Hundeauslaufzone steht exklusiv für Gäste des Platzes bereit.",
+      image: { src: `${IMG}/hundeauslaufzone.webp`, alt: "Hundeauslaufzone-Schild von Seecamping Plörz auf einer Alpenwiese mit Bergwald im Hintergrund" },
     },
     {
       title: "Privatgarten am See",
@@ -126,7 +126,6 @@ export const campingPloerz: CampsiteConfig = {
       { src: `${IMG}/mobilheim-kueche.webp`, alt: "Moderne Küchenzeile im Mobilheim" },
       { src: `${IMG}/mobilheim-wohnbereich.webp`, alt: "Gemütlicher Wohn- und Essbereich im Mobilheim" },
       { src: `${IMG}/mobilheim-bad.webp`, alt: "Modernes Bad mit Dusche und WC im Mobilheim" },
-      { src: `${IMG}/mobilheim-dusche.webp`, alt: "Duschbereich im Mobilheim" },
     ],
   },
 
