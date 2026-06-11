@@ -1,169 +1,156 @@
 import type { CampsiteConfig } from "../types";
 
-/**
- * Seecamping Plörz — Harald Lauritsch GmbH · Landskron am Ossiacher See, Kärnten.
- * Alle Texte/Fakten belegt aus camping-ploerz.at (Stand-Scrape 2026-06).
- * Bilder = ausschließlich eigene Plörz-Fotos in /public/campsites/camping-ploerz/
- * (alle per Vision geprüft). Stock-/Pixabay-/Google-Maps-/Partner-Bilder wurden
- * bewusst NICHT verwendet.
- * EHRLICH: der Platz liegt DIREKT am Ossiacher See (eigener Seezugang) → "am See"
- * ist belegt. Preise real aus preise.html / mobilheim.html / zimmervermietung.html.
- * Keine eindeutige Auszeichnung auf der Quelle → awards bleibt leer.
- * Zimmervermietung hat keine eigenen, verifizierbaren Fotos → nur im Text genannt,
- * keine eigene Bildkachel. Aktivitäten/Wandern/Tandem nur als Story (Quelle hat
- * dafür ausschließlich Stockfotos) → keine aktivitaeten-Sektion mit Bildern.
- */
 const IMG = "/campsites/camping-ploerz";
 
 export const campingPloerz: CampsiteConfig = {
   name: "Seecamping Plörz",
-  shortName: "Seecamping Plörz",
+  shortName: "Plörz",
   slug: "camping-ploerz",
   ort: "Landskron am Ossiacher See",
   region: "Kärnten",
   brandKind: "Seecamping",
   see: "Ossiacher See",
-  regionLong: "Urlaubsregion Ossiacher See · Kärnten · Österreich",
+  regionLong: "Region Ossiacher See · Kärnten · Österreich",
 
-  claim: "Dein Campingparadies am smaragdblauen Ossiacher See",
-  claimEmphasis: "smaragdblauen Ossiacher See",
+  claim: "Willkommen im Campingparadies am Ossiacher See",
+  claimEmphasis: "Ossiacher See",
   intro:
-    "Direkt am Ufer des Ossiacher Sees: ein familienfreundlicher Seecampingplatz mit Stellplätzen auf der Wiese, eigenem Seezugang und einem klaren Versprechen — Hunde sind bei uns nicht nur erlaubt, sondern herzlich willkommen.",
+    "Ein kleiner, familiär geführter Seecampingplatz direkt am Ossiacher See — mit eigenem Seezugang, viel Platz auf der Wiese und einem besonders herzlichen Willkommen für Hunde.",
 
-  logo: { src: `${IMG}/logo-seecamping-ploerz.png`, alt: "SEEcamping Plörz Logo" },
+  logo: { src: `${IMG}/logo-seecamping-ploerz.png`, alt: "Seecamping Plörz Logo" },
 
   statement: {
-    text: "Hunde sind bei uns nicht nur erlaubt, sondern herzlich willkommen.",
-    emphasis: "herzlich willkommen",
+    text: "Bei uns wird Camping wieder ganz einfach — direkt am Wasser, mitten in der Natur und mit Hund.",
+    emphasis: "mit Hund",
   },
 
   pillars: [
     {
-      title: "Direkt am Ossiacher See",
-      text: "Smaragdblaues Wasser, Berge ringsum und der eigene Seezugang nur wenige Schritte vom Stellplatz entfernt.",
-      image: { src: `${IMG}/seezugang-stege.webp`, alt: "Eigener Seezugang mit Stegen am Ossiacher See" },
+      title: "Stellplätze auf der Wiese",
+      text: "Großzügige Plätze auf der Wiese mit 16-Ampere-Stromanschluss, gratis WLAN sowie Sonnen- und Schattenplätzen.",
+      image: { src: `${IMG}/stellplaetze-luftaufnahme.webp`, alt: "Luftaufnahme der Stellplätze auf der Wiese am Ossiacher See" },
     },
     {
       title: "Hunde herzlich willkommen",
-      text: "Eigener Seezugang für Vierbeiner und eine eingezäunte Hundeauslaufzone gehören bei uns selbstverständlich dazu.",
-      image: { src: `${IMG}/hundeauslaufzone.webp`, alt: "Hundeauslaufzone von Seecamping Plörz — ein Platz für Spiel und Spaß" },
+      text: "Eigener Zugang zum See für Hunde und eine eingezäunte Hundeauslaufzone — Vierbeiner sind hier nicht nur erlaubt, sondern herzlich willkommen.",
+      image: { src: `${IMG}/hundeauslaufzone.webp`, alt: "Hundeauslaufzone am Seecamping Plörz" },
     },
     {
-      title: "Wohnkomfort am Wasser",
-      text: "Lieber feste Wände? Moderne Mobilheime mit zwei Schlafzimmern, Küche und Bad — teils mit privatem Seezugang.",
-      image: { src: `${IMG}/mobilheime-aussenansicht.webp`, alt: "Mobilheime von Seecamping Plörz mit eigener Liegewiese" },
+      title: "Wohnkomfort im Mobilheim",
+      text: "Moderne Mobilheime mit zwei Schlafzimmern, Küche, Bad und überdachter Terrasse — wahlweise mit privatem Seezugang.",
+      image: { src: `${IMG}/mobilheime-aussenansicht.webp`, alt: "Mobilheime mit Liegestühlen und Bergblick am Ossiacher See" },
     },
   ],
 
   usps: [
     "Direkt am Ossiacher See",
     "Eigener Seezugang",
+    "Gratis WLAN inklusive",
+    "16-Ampere-Stromanschluss",
     "Hunde herzlich willkommen",
-    "Eigene Hundeauslaufzone",
-    "Stellplätze auf der Wiese",
-    "16-A-Strom an jedem Platz",
-    "Gratis WLAN",
-    "Am Ossiachersee-Radweg",
+    "Am Ossiacher-See-Radweg",
   ],
 
   trust: {
-    heading: "Worauf Sie sich bei uns verlassen können",
-    headingEmphasis: "verlassen",
+    heading: "Ehrlich, familiär, direkt am See",
+    headingEmphasis: "direkt am See",
     intro:
-      "Familie Lauritsch führt Seecamping Plörz als familienfreundlichen Platz direkt am Ossiacher See. Faire Preise inklusive Strom, WLAN und Kurtaxe, ein eigener Seezugang und ein herzliches Willkommen für Mensch und Hund.",
+      "Harald und Monika empfangen ihre Gäste persönlich — ein kleiner, familiärer Platz, klare Preise und ein See, der für sich spricht.",
   },
 
-  // Keine eindeutig belegbare Auszeichnung auf der Quelle → ehrlich leer.
   awards: [],
 
   saison: { von: "Mai", bis: "Oktober" },
 
   hero: {
-    aerial: { src: `${IMG}/luftaufnahme-ossiachersee.webp`, alt: "Luftaufnahme von Seecamping Plörz direkt am Ossiacher See" },
-    sunset: { src: `${IMG}/ossiachersee-abendstimmung.webp`, alt: "Abendstimmung über dem Ossiacher See" },
+    aerial: { src: `${IMG}/luftaufnahme-ossiachersee.webp`, alt: "Luftaufnahme von Seecamping Plörz am Ossiacher See" },
   },
 
   camping: {
-    heading: "Seecamping am Ossiacher See",
+    heading: "Camping am Ossiacher See",
     intro:
-      "Ein familienfreundlicher Campingplatz mit Stellplätzen direkt auf der Wiese am Ufer des Ossiacher Sees — mitten in einer herrlichen Landschaft mit besonders gesundem Klima.",
+      "Direkt am Südufer gelegen, mit eigenem Seezugang und Liegewiese am Wasser — hier ist der See immer nur ein paar Schritte entfernt.",
     features: [
       {
-        title: "Stellplätze direkt am See",
-        text: "Alle Stellplätze sind rund 100 m² groß, liegen auf der Wiese und verfügen über einen 16-Ampere-Stromanschluss; WLAN ist gratis. Sonnen- wie Schattenplätze stehen zur Wahl.",
-        image: { src: `${IMG}/stellplaetze-luftaufnahme.webp`, alt: "Luftaufnahme der Stellplätze von Seecamping Plörz am Ossiacher See" },
+        title: "Eigener Seezugang",
+        text: "Ein eigener Zugang zum Ossiacher See mit Stegen und Liegewiese — zum Schwimmen und Sonnen, nur ein paar Schritte vom Stellplatz.",
+        image: { src: `${IMG}/seezugang-stege.webp`, alt: "Seeufer mit Stegen und Liegewiese am Ossiacher See" },
       },
       {
-        title: "Eigener Seezugang & Liegewiese",
-        text: "Über einen eigenen Seezugang geht es direkt ins kühle Nass — einen separaten Zugang gibt es auch für Hunde. Der Ossiachersee-Radweg und Wanderwege grenzen unmittelbar an den Platz.",
-        image: { src: `${IMG}/seezugang-liegewiese.webp`, alt: "Blick vom Seecamping Plörz über die Liegewiese auf den Ossiacher See" },
+        title: "Liegewiese am Wasser",
+        text: "Schilfgesäumtes Ufer, Blick über den See und viel Platz zum Entspannen am Wasser.",
+        image: { src: `${IMG}/seezugang-liegewiese.webp`, alt: "Liegewiese mit Schilf und Seeblick am Ossiacher See" },
+      },
+      {
+        title: "Abendstimmung am See",
+        text: "Wenn die Sonne über den Bergen versinkt, wird der Ossiacher See zur ruhigsten Kulisse des Tages.",
+        image: { src: `${IMG}/ossiachersee-abendstimmung.webp`, alt: "Ossiacher See in der Abendstimmung mit Schilf und Bergen" },
       },
     ],
   },
 
   mobilheime: {
-    heading: "Mobilheime & Zimmer mit Seeblick",
+    heading: "Mobilheime mit Seeblick",
     intro:
-      "Lieber feste Wände statt Zelt? Unsere voll ausgestatteten Mobilheime bieten zwei Schlafzimmer, Küche und Bad — wahlweise mit privatem Seezugang. Dazu vermieten wir acht rustikal eingerichtete Zimmer mit Seeblick, eigenem Bad und TV (ab 100 € pro Nacht).",
+      "Komfortabel wohnen mitten in der Natur — mit zwei Schlafzimmern, Küche, Bad und überdachter Terrasse, wahlweise mit privatem Seezugang.",
     items: [
       {
         name: "Mobilheim am See",
-        kind: "Mobilheim · privater Seezugang",
-        text: "Zwei Schlafzimmer, Küchenzeile mit Sitzecke und Bad mit Dusche/WC. Eine Klimaanlage sorgt für Wärme wie Kühlung. Seeblick und Bergblick genießt man von der überdachten Terrasse — samt eigenem Strandbereich direkt am See.",
-        image: { src: `${IMG}/mobilheim-am-see-terrasse.webp`, alt: "Überdachte Terrasse des Mobilheims am See mit Blick auf den Ossiacher See" },
+        kind: "Mobilheim",
+        text: "Mit privatem Seezugang und eigener Liegewiese direkt am Wasser. Zwei Schlafzimmer, Küchenzeile, Bad mit Dusche und WC sowie eine Klimaanlage, die auch heizt. Seeblick und Bergblick von der überdachten Terrasse.",
+        image: { src: `${IMG}/mobilheim-am-see-terrasse.webp`, alt: "Überdachte Terrasse mit Seeblick am Mobilheim" },
         priceFrom: 250,
-        features: ["bis 4 Personen", "2 Schlafzimmer", "Küche & Bad (Dusche/WC)", "Klimaanlage", "privater Seezugang & Terrasse"],
+        features: ["bis 4 Personen", "privater Seezugang", "2 Schlafzimmer", "Klimaanlage", "überdachte Terrasse"],
       },
       {
         name: "Mobilheim am Campingplatz",
         kind: "Mobilheim",
-        text: "Gemütliches Mobilheim für bis zu 4 Personen mit zwei Schlafzimmern (ein Doppelbett, zwei Einzelbetten), Kochnische, Sitzgelegenheit und Bad mit Dusche. Den Tag lässt man auf der überdachten Terrasse ausklingen.",
-        image: { src: `${IMG}/mobilheim-campingplatz-terrasse.webp`, alt: "Mobilheim am Campingplatz mit überdachter Terrasse und Sitzgruppe" },
+        text: "Platz für bis zu 4 Personen in zwei Schlafzimmern — eines mit Doppelbett, eines mit zwei Einzelbetten. Kochnische, Sitzgelegenheit, Bad mit Dusche und eine überdachte Terrasse.",
+        image: { src: `${IMG}/mobilheim-campingplatz-terrasse.webp`, alt: "Mobilheim mit überdachter Terrasse am Campingplatz" },
         priceFrom: 180,
-        features: ["bis 4 Personen", "2 Schlafzimmer", "Kochnische & Sitzecke", "Bad mit Dusche", "überdachte Terrasse"],
+        features: ["bis 4 Personen", "2 Schlafzimmer", "Kochnische", "überdachte Terrasse"],
       },
     ],
   },
 
   anreise: {
-    heading: "So finden Sie zu uns",
+    heading: "So findest du uns",
     modes: [
-      { title: "Mit dem Auto", text: "Über die Tauernautobahn A10 bzw. die Südautobahn A2 bis Villach, Abfahrt Villach–Ossiacher See, dann über die Ossiachersee-Süduferstraße bis Landskron / Heiligengestade." },
-      { title: "Mit der Bahn", text: "Mit der ÖBB bis zum Hauptbahnhof Villach, weiter mit Taxi oder Postbus an den Ossiacher See." },
-      { title: "Mit dem Flugzeug", text: "Flughafen Klagenfurt oder Laibach (Ljubljana), von dort weiter mit Taxi oder Postbus." },
+      { title: "Mit dem Auto", text: "Über die A10 bzw. A2 bis Villach, Abfahrt Ossiacher See, dann die Süduferstraße bis Heiligengestade." },
+      { title: "Mit der Bahn", text: "ÖBB bis zum Hauptbahnhof Villach, von dort weiter mit Bus oder Taxi an den See." },
+      { title: "Mit dem Flugzeug", text: "Die Flughäfen Klagenfurt und Ljubljana (Laibach) liegen jeweils in bequemer Fahrdistanz." },
     ],
   },
 
   galerie: {
-    heading: "Wohnen wie im Urlaubshaus",
-    headingEmphasis: "Urlaubshaus",
-    intro:
-      "Ein Blick in unsere Mobilheime: moderne Küche, eigenes Bad und ein gemütlicher Wohnbereich.",
-    tag: "Mobilheim-Komfort",
+    heading: "Wohnen im Mobilheim",
+    headingEmphasis: "Mobilheim",
+    intro: "Ein Blick ins Innere: helle Küche, gemütlicher Wohnbereich und ein modernes Bad mit Dusche.",
+    tag: "Mobilheim-Ausstattung",
     images: [
-      { src: `${IMG}/mobilheim-kueche.webp`, alt: "Voll ausgestattete Küchenzeile im Mobilheim von Seecamping Plörz" },
-      { src: `${IMG}/mobilheim-bad.webp`, alt: "Modernes Bad mit Dusche im Mobilheim von Seecamping Plörz" },
-      { src: `${IMG}/mobilheim-wohnbereich.webp`, alt: "Gemütlicher Wohn- und Essbereich im Mobilheim von Seecamping Plörz" },
+      { src: `${IMG}/mobilheim-kueche.webp`, alt: "Moderne Küchenzeile im Mobilheim" },
+      { src: `${IMG}/mobilheim-wohnbereich.webp`, alt: "Gemütlicher Wohn- und Essbereich im Mobilheim" },
+      { src: `${IMG}/mobilheim-bad.webp`, alt: "Modernes Bad mit Dusche und WC im Mobilheim" },
+      { src: `${IMG}/mobilheim-dusche.webp`, alt: "Duschbereich im Mobilheim" },
     ],
   },
 
   booking: {
-    heading: "Verfügbarkeit & Anfrage",
+    heading: "Buchen & Anfragen",
     intro:
-      "Wählen Sie Zeitraum, Unterkunft und Personenzahl — Familie Lauritsch meldet sich mit Ihrer persönlichen Verfügbarkeit.",
+      "Wähle Zeitraum, Unterkunft und Personen — wir melden uns mit deiner persönlichen Verfügbarkeit und einem unverbindlichen Angebot.",
     pricesArePlaceholder: false,
     priceNote:
-      "Stellplatz: Preis für 2 Erwachsene/Nacht inkl. Strom, WLAN & Kurtaxe (Vorsaison; Zwischen- & Hauptsaison höher). Mobilheime: ab-Preis exkl. Orts-/Nächtigungstaxe, zzgl. 50 € Endreinigung. Zimmer ohne Frühstück. Saison 01.05.–01.10.2026 · Änderungen vorbehalten.",
+      "Stellplatz: Richtpreis für 2 Erwachsene in der Vorsaison, inkl. aller Abgaben, WLAN & Strom · je nach Saison abweichend · Hund & Kurtaxe zzgl. Mobilheime ab-Preis exkl. Orts-/Nächtigungstaxe, zzgl. 50 € Endreinigung.",
     highlight: {
-      title: "Inklusive Strom, WLAN & Kurtaxe",
-      text: "Der Stellplatzpreis gilt für 2 Erwachsene inklusive Strom, WLAN und Kurtaxe. Bitte beachten Sie: Anfragen für nur 1 Nacht sind in der Hauptsaison nicht möglich.",
+      title: "Klare Preise, kein Kleingedrucktes",
+      text: "Alle Preise verstehen sich inkl. WLAN und Strom — Endreinigung und Taxen sind offen ausgewiesen.",
     },
     categories: [
-      // Reale Preise: preise.html (Stellplatz 2 Erw., Vorsaison), mobilheim.html, zimmervermietung.html.
-      { id: "stellplatz", label: "Stellplatz (2 Erw.)", perNight: 45.3, perExtraGuest: 11.5 },
-      { id: "mobilheim-see", label: "Mobilheim am See", perNight: 250, perExtraGuest: 0 },
-      { id: "mobilheim-platz", label: "Mobilheim am Campingplatz", perNight: 180, perExtraGuest: 0 },
-      { id: "zimmer", label: "Zimmer mit Seeblick", perNight: 100, perExtraGuest: 0 },
+      { id: "stellplatz", label: "Stellplatz", perNight: 45.3, perExtraGuest: 11.5 },
+      { id: "mobilheim-see", label: "Mobilheim am See", perNight: 250 },
+      { id: "mobilheim-camping", label: "Mobilheim am Campingplatz", perNight: 180 },
+      { id: "zimmer", label: "Zimmer mit Seeblick", perNight: 100 },
     ],
   },
 
@@ -174,54 +161,46 @@ export const campingPloerz: CampsiteConfig = {
     mail: "info@camping-ploerz.at",
     facebook: "https://www.facebook.com/seecampingPloerz",
     adresse: "Ossiachersee Süduferstraße 289 · 9523 Villach · Kärnten",
-    // Keine expliziten Koordinaten auf der Quelle → coords ehrlich weggelassen (Karte blendet aus, Adresse zeigt).
   },
 
-  story: {
-    kicker: "Familie Lauritsch · Ossiacher See",
-    heading: "Ein Platz mit großem Herz",
-    intro:
-      "Familie Lauritsch führt einen familienfreundlichen Campingplatz mit Stellplätzen direkt auf der Wiese am Südufer des Ossiacher Sees.",
-    chapters: [
-      { no: "01", kicker: "Am smaragdblauen See", title: "Urlaub direkt am Wasser", text: "Direkt am Ossiacher See, mit eigenem Seezugang und Liegewiese. Der Ossiachersee-Radweg führt am Platz vorbei, Wanderwege grenzen unmittelbar an." },
-      { no: "02", kicker: "Vierbeiner willkommen", title: "Ein Paradies für Hunde", text: "Hunde sind bei uns nicht nur erlaubt, sondern herzlich willkommen: mit eigenem Seezugang für Hunde und einer eingezäunten Hundeauslaufzone zum freien Toben." },
-      { no: "03", kicker: "Strandbad & Imbiss", title: "ZIS Lauritsch — 400 m weiter", text: "Rund 400 m vom Platz liegt unser Strandbad mit Imbiss: ein abgetrennter Badebereich für Hunde, Sonnenplätze und regionale Speisen sowie frisch Gezapftes auf der Seeterrasse." },
-      { no: "04", kicker: "Abenteuer in Kärnten", title: "Berge, Seen & mehr", text: "Vom Tandemflug über den Ossiacher See bis zu zahlreichen Ausflugszielen — die kostenlose Erlebniscard (an der Rezeption) und die Kärnten Card bringen Sie bequem hin." },
-    ],
-  },
-
-  languages: ["DE"],
+  languages: ["DE", "EN"],
 
   nav: [
+    {
+      label: "Camping",
+      href: "#camping",
+      children: [
+        { label: "Eigener Seezugang", href: "#camping" },
+        { label: "Liegewiese am Wasser", href: "#camping" },
+        { label: "Stellplätze & Preise", href: "#booking" },
+      ],
+    },
     {
       label: "Mobilheime",
       href: "#mobilheime",
       children: [
         { label: "Mobilheim am See", href: "#mobilheime" },
         { label: "Mobilheim am Campingplatz", href: "#mobilheime" },
-        { label: "Zimmer mit Seeblick", href: "#mobilheime" },
+        { label: "Zimmer mit Seeblick", href: "#booking" },
       ],
     },
+    { label: "Galerie", href: "#galerie" },
     {
-      label: "Camping",
-      href: "#camping",
+      label: "Anreise",
+      href: "#anreise",
       children: [
-        { label: "Stellplätze am See", href: "#camping" },
-        { label: "Eigener Seezugang", href: "#camping" },
-        { label: "Hunde willkommen", href: "#camping" },
+        { label: "Mit dem Auto", href: "#anreise" },
+        { label: "Mit der Bahn", href: "#anreise" },
+        { label: "Mit dem Flugzeug", href: "#anreise" },
       ],
     },
     {
-      label: "Galerie",
-      href: "#galerie",
-    },
-    {
-      label: "Preise & Anfrage",
+      label: "Preise",
       href: "#booking",
       children: [
         { label: "Stellplatz", href: "#booking" },
-        { label: "Mobilheime & Zimmer", href: "#booking" },
-        { label: "Anreise", href: "#anreise" },
+        { label: "Mobilheime", href: "#booking" },
+        { label: "Zimmer", href: "#booking" },
       ],
     },
   ],
