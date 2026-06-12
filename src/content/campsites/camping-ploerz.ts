@@ -149,7 +149,7 @@ export const campingPloerz: CampsiteConfig = {
   },
 
   kontakt: {
-    coords: { lat: 46.655462, lng: 13.939476 },
+    coords: { lat: 46.655159, lng: 13.939101 },
     tel: "+43 676 322 14 94",
     telHref: "tel:+436763221494",
     mail: "info@camping-ploerz.at",
