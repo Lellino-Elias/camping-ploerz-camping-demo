@@ -124,7 +124,7 @@ export const campingPloerz: CampsiteConfig = {
     tag: "Mobilheim-Ausstattung",
     images: [
       { src: `${IMG}/mobilheim-kueche.webp`, alt: "Moderne Küchenzeile im Mobilheim" },
-      { src: `${IMG}/mobilheim-wohnbereich.webp`, alt: "Gemütlicher Wohn- und Essbereich im Mobilheim" },
+      { src: `${IMG}/mobilheim-esszimmer.webp`, alt: "Heller Wohn- und Essbereich mit Küchenzeile im Mobilheim" },
       { src: `${IMG}/mobilheim-bad.webp`, alt: "Modernes Bad mit Dusche und WC im Mobilheim" },
     ],
   },
