@@ -72,14 +72,14 @@ export const campingPloerz: CampsiteConfig = {
       "Direkt am Südufer gelegen, mit eigenem Seezugang und Liegewiese am Wasser — hier ist der See immer nur ein paar Schritte entfernt.",
     features: [
       {
-        title: "Eigener Seezugang",
-        text: "Ein eigener Zugang zum Ossiacher See mit Stegen und Liegewiese — zum Schwimmen und Sonnen, nur ein paar Schritte vom Stellplatz.",
-        image: { src: `${IMG}/seezugang-stege.webp`, alt: "Seeufer mit Stegen und Liegewiese am Ossiacher See" },
-      },
-      {
         title: "Ossiacher See – direkt vor der Tür",
         text: "Der Campingplatz liegt unmittelbar am Südufer des Ossiacher Sees — mit Bergpanorama ringsum und dem See in Reichweite zum Schwimmen, Paddeln und Erholen.",
         image: { src: `${IMG}/campingplatz-seelage.webp`, alt: "Luftaufnahme von Seecamping Plörz am Ossiacher See mit Bergen im Hintergrund" },
+      },
+      {
+        title: "Eigener Seezugang",
+        text: "Ein eigener Zugang zum Ossiacher See mit Stegen und Liegewiese — zum Schwimmen und Sonnen, nur ein paar Schritte vom Stellplatz.",
+        image: { src: `${IMG}/seezugang-stege.webp`, alt: "Seeufer mit Stegen und Liegewiese am Ossiacher See" },
       },
     ],
   },
