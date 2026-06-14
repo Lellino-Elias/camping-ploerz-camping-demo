@@ -73,7 +73,7 @@ export const campingPloerz: CampsiteConfig = {
     features: [
       {
         title: "Ossiacher See – direkt vor der Tür",
-        text: "Der Campingplatz liegt unmittelbar am Südufer des Ossiacher Sees — mit Bergpanorama ringsum und dem See in Reichweite zum Schwimmen, Paddeln und Erholen.",
+        text: "Der Campingplatz liegt direkt am Südufer des Ossiacher Sees — mit Bergpanorama und dem See in Reichweite.",
         image: { src: `${IMG}/campingplatz-seelage.webp`, alt: "Luftaufnahme von Seecamping Plörz am Ossiacher See mit Bergen im Hintergrund" },
       },
       {
@@ -92,7 +92,7 @@ export const campingPloerz: CampsiteConfig = {
       {
         name: "Mobilheim am See",
         kind: "Mobilheim",
-        text: "Mit privatem Seezugang und eigener Liegewiese direkt am Wasser. Zwei Schlafzimmer, Küchenzeile, Bad mit Dusche und WC sowie eine Klimaanlage, die auch heizt. Seeblick und Bergblick von der überdachten Terrasse.",
+        text: "Zwei Schlafzimmer, Küchenzeile, Bad mit Dusche, Klimaanlage und überdachte Terrasse mit Seeblick — plus privatem Seezugang.",
         image: { src: `${IMG}/mobilheim-am-see-terrasse.webp`, alt: "Überdachte Terrasse mit Seeblick am Mobilheim" },
         priceFrom: 250,
         features: ["bis 4 Personen", "privater Seezugang", "2 Schlafzimmer", "Klimaanlage", "überdachte Terrasse"],
@@ -100,7 +100,7 @@ export const campingPloerz: CampsiteConfig = {
       {
         name: "Mobilheim am Campingplatz",
         kind: "Mobilheim",
-        text: "Platz für bis zu 4 Personen in zwei Schlafzimmern — eines mit Doppelbett, eines mit zwei Einzelbetten. Kochnische, Sitzgelegenheit, Bad mit Dusche und eine überdachte Terrasse.",
+        text: "Zwei Schlafzimmer für bis zu 4 Personen, Kochnische, Bad mit Dusche und eine überdachte Terrasse.",
         image: { src: `${IMG}/mobilheim-campingplatz-terrasse.webp`, alt: "Mobilheim mit überdachter Terrasse am Campingplatz" },
         priceFrom: 180,
         features: ["bis 4 Personen", "2 Schlafzimmer", "Kochnische", "überdachte Terrasse"],
